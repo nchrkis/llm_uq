@@ -259,12 +259,10 @@ If you use these materials, please cite:
 
 [Full citation to be added upon publication]
 
-plaintext
-Copy Code
 
 
 ---
 
 ## License
 
-[To be added]
+**GNU General Public Licence v3.0**
