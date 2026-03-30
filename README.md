@@ -157,16 +157,6 @@ Prediction, Confidence, Reasoning).
 |-------|----------|
 | **Appendix** | Reference material including the five prompt templates and definitions of the metrics used in the Results sheet (row accuracy and consensus rate). |
 
----
-
-## How Results Map to Uncertainty Metrics in the Paper
-
-Aleatoric and epistemic uncertainty are computed from the binary
-prediction columns using Shannon entropy and variation ratio.
-Semantic uncertainty is computed by embedding the reasoning texts
-(using the text-embedding-3-large model), clustering them by cosine
-similarity, and computing entropy over the resulting cluster
-distribution.
 
 ---
 
