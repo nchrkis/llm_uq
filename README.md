@@ -148,18 +148,7 @@ internal generation variability).
 The column schema is identical to the Prompt sheets (Patient, Cancer
 Prediction, Confidence, Reasoning).
 
-#### Why Prompt 1 and Classify 1 Produce Identical Results
 
-Prompt 1 and Classify 1 both use Prompt Template 1 with the same
-patient data. At temperature 0.5, the model is sufficiently
-deterministic that the first call under each condition produces the
-same output. They differ conceptually (one belongs to the prompt-
-variation series, the other to the stochastic-repeat series) but their
-outputs are identical because the generation conditions are the same.
-
-Prompt 2 and Classify 2 differ because Prompt 2 uses a different
-instruction template, while Classify 2 reruns Template 1 with a new
-stochastic draw. These are fundamentally different operations.
 
 ### Group 5: Appendix
 
@@ -170,12 +159,6 @@ stochastic draw. These are fundamentally different operations.
 ---
 
 ## How Results Map to Uncertainty Metrics in the Paper
-
-| Uncertainty Type | Source Sheets | What Varies | What Is Fixed | Paper Reference |
-|-----------------|---------------|-------------|---------------|-----------------|
-| **Aleatoric** | Prompt 1 through Prompt 5 | Instruction wording | Patient data, model seed | Section 4.3, Table 4 |
-| **Epistemic** | Classify 1 through Classify 5 | Random seed (stochastic decoding) | Instruction wording (Template 1), patient data | Section 4.4, Table 4 |
-| **Semantic** | Reasoning columns from all sheets above | Embedding-level meaning of clinical rationales | Cosine similarity threshold (0.75) | Section 4.5, Table 5 |
 
 Aleatoric and epistemic uncertainty are computed from the binary
 prediction columns using Shannon entropy and variation ratio.
@@ -229,8 +212,7 @@ p | 1.0 (default) |
 ## Prompt Templates
 
 The five instruction templates are reproduced in Appendix A of the
-paper. Plain-text versions are provided in the `prompts/` directory
-for machine-readable access.
+paper. 
 
 All five templates share identical clinical task definitions (binary
 PDAC classification), output format constraints (CSV with patient_id,
