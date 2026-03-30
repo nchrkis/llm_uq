@@ -35,12 +35,13 @@ training data.
 ---
 
 ## Repository Structure
-
+```
 .
-├── README.md # Project description
-├── results_with_context.xlsx # Results using context
-├── results_without_context.xlsx # Results without context
-
+├── LICENCE                           # Licence
+├── README.md                         # Project description
+├── results_with_context.xlsx         # Results using context
+└── results_without_context.xlsx      # Results without context
+```
 ---
 
 ## Experimental Conditions
