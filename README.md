@@ -36,11 +36,10 @@ training data.
 
 ## Repository Structure
 
-. ├── README.md ├── results_with_context.xlsx ├── results_without_context.xlsx └── prompts/ ├── prompt_1.txt ├── prompt_2.txt ├── prompt_3.txt ├── prompt_4.txt └── prompt_5.txt
-
-plaintext
-Copy Code
-
+.
+├── README.md # Project description
+├── results_with_context.xlsx # Results using context
+├── results_without_context.xlsx # Results without context
 
 ---
 
