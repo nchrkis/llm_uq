@@ -1,5 +1,4 @@
-# Uncertainty
--Aware LLM Framework for Pancreatic Cancer Prediction
+# Uncertainty-Aware LLM Framework for Pancreatic Cancer Prediction
 
 This repository contains the experimental outputs, prompt templates,
 and supplementary materials accompanying the paper:
