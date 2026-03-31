@@ -40,7 +40,7 @@ training data.
 ├── LICENCE                           # Licence
 ├── README.md                         # Project description
 ├── results_with_context.xlsx         # Results using context
-└── results_without_context.xlsx      # Results without context
+└── results_no_context.xlsx      # Results without context
 ```
 ---
 
@@ -67,7 +67,7 @@ appended to the prompt. The LLM receives three components:
 
 ### Without Context (Baseline)
 
-**File:** `results_without_context.xlsx`
+**File:** `results_no_context.xlsx`
 
 The RAG module is disabled. The LLM receives only two components:
 
