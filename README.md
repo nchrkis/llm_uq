@@ -189,8 +189,7 @@ The LLM was not trained on either partition.
 |-----------|-------|
 | Model | Azure-hosted GPT-5.2 (chat-completion API) |
 | Temperature | ~0.5 |
-| Top-
-p | 1.0 (default) |
+| Top-p | 1.0 (default) |
 | Semantic embedding model | text-embedding-3-large |
 | Cosine similarity threshold | 0.75 |
 | Retrieval database size | 146 patients |
