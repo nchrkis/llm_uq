@@ -3,15 +3,14 @@
 This repository contains the experimental outputs, prompt templates,
 and supplementary materials accompanying the paper:
 
-> **A Systems Engineering Framework for Uncertainty-Aware LLMs in
-> Medical Prediction**
+> **A Model-Agnostic Uncertainty Quantification Framework for Retrieval-Augmented LLM Clinical Prediction**
 >
 > Panagiotis Tirchas, Nicholas Christakis, Dimitris Drikakis
 >
 > Institute for Advanced Modelling and Simulation, University of
 > Nicosia, Nicosia CY-2417, Cyprus
 >
-> Submitted to *Expert Systems with Applications* (Elsevier)
+> Submitted to *Artificial Intelligence in Medicine* (Elsevier)
 
 ---
 
